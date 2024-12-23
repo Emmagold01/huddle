@@ -1,0 +1,150 @@
+.navbar {
+  margin: 2.5rem 1rem;
+}
+
+.navbar .logo {
+  width: 13rem; /* Set the width */
+}
+
+#hero h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#hero p {
+  width: 100%;
+}
+
+#community .community {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#together {
+  margin-top: 5rem;
+}
+
+#together .together-container {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+#together .together-container .together p {
+  width: 100%;
+}
+
+#conversation {
+  margin-top: 5rem;
+}
+
+#conversation .conversation-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5rem;
+}
+
+#conversation .conversation-container .conversation {
+  margin-top: 2rem;
+  margin-left: 0;
+}
+
+#conversation .conversation-container .conversation h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+#users {
+  margin-top: 5rem;
+}
+
+#users .users-container {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+#users .users-container .users {
+  margin-top: 3rem;
+}
+
+#users .users-container .users p {
+  width: 100%;
+}
+
+#ready {
+  margin-top: 8rem;
+}
+
+#footer {
+  margin-top: 5rem;
+}
+
+#footer .footer-style {
+  flex-direction: column-reverse;
+}
+
+#footer .footer-style .newsletter {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#footer .footer-style .newsletter h1 {
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+#footer .footer-style .newsletter p {
+  margin-top: -1rem;
+  width: 100%;
+}
+
+#footer .footer-style .newsletter .footer-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-input input {
+  width: 100%;
+}
+
+.footer-input .letter-btn {
+  margin-top: 1rem;
+  margin-left: 0rem;
+  width: 60%;
+}
+
+#footer .footer-style .huddle {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#footer .footer-style .huddle img {
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+#footer .footer-style .huddle p {
+  width: 100%;
+}
+
+#footer .footer-style .huddle .f-style {
+  gap: 0;
+}
+
+.social-icons {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
