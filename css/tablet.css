@@ -58,3 +58,8 @@
   align-items: center;
   text-align: center;
 }
+
+#footer .footer-style .huddle img {
+  margin: auto;
+  margin-bottom: 1rem;
+}

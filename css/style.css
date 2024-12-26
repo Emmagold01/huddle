@@ -261,7 +261,6 @@ button {
 }
 
 #footer .footer-style .huddle img {
-  margin: auto;
   margin-bottom: 2rem;
 }
 
@@ -274,6 +273,10 @@ button {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+#footer .footer-style .huddle .f-style img {
+  display: block;
 }
 
 #footer .footer-style .newsletter h1 {

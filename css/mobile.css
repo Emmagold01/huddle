@@ -131,8 +131,8 @@
 }
 
 #footer .footer-style .huddle img {
+  margin: auto;
   margin-bottom: 1rem;
-  align-items: center;
 }
 
 #footer .footer-style .huddle p {
