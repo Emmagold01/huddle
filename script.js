@@ -8,9 +8,11 @@ function toggleDarkMode() {
   darkModeHeader.classList.toggle('body2');
 
   if (darkModeHeader.classList.contains('body2')) {
+    darkModeButton.textContent = 'Light Mode';
     logoImage.src = 'images/logo2.svg';
     paragraph.forEach((p) => (p.style.color = '#9e9fa1'));
   } else {
+    darkModeButton.textContent = 'Dark Mode';
     logoImage.src = 'images/logo.svg';
     paragraph.forEach((p) => (p.style.color = '##3e414c'));
   }
