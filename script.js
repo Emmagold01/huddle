@@ -1,6 +1,7 @@
 // Select elements
 const darkModeHeader = document.querySelector('body');
 const darkModeButton = document.querySelector('.dark');
+const navbar = document.querySelector('.navbar');
 const logoImage = document.querySelector('.logo img');
 const paragraph = document.querySelectorAll('p');
 
@@ -20,3 +21,16 @@ function toggleDarkMode() {
 
 // Attach the function to the button click event
 darkModeButton.addEventListener('click', toggleDarkMode);
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 30) {
+    navbar.classList.add('navbar2');
+  } else {
+    navbar.classList.remove('navbar2');
+  }
+
+  if (darkModeHeader.classList.contains('body2') && window.scrollY > 30) {
+    navbar.classList.add('navbar3');
+  } else {
+    navbar.classList.remove('navbar3');
+  }
+});

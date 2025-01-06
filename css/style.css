@@ -85,6 +85,22 @@ button {
   align-items: center;
 }
 
+.navbar2 {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.navbar3 {
+  background-color: #121212;
+  padding: 2rem 1rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
 .logo-btn {
   display: inline-block;
   border: 1px solid hsl(322, 100%, 66%);
